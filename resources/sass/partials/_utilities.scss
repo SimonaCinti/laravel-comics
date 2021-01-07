@@ -6,19 +6,20 @@
     padding: 0 1rem;
 }
 
+
 // Spacers
 
 @each $size in 0, 1, 2, 3, 4, 6 {
-    mt-#{$size} {
+    .mt-#{$size} {
         margin-top: $size + 0rem;
     }
-    pt-#{$size} {
+    .pt-#{$size} {
         padding-top: $size + 0rem;
     }
-    mb-#{$size} {
+    .mb-#{$size} {
         margin-bottom: $size + 0rem;
     }
-    pb-#{$size} {
+    .pb-#{$size} {
         padding-bottom: $size + 0rem;
     }
 }
