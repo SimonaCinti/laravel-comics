@@ -1,0 +1,72 @@
+//Layout
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+// Spacers
+
+@each $size in 0, 1, 2, 3, 4, 6 {
+    mt-#{$size} {
+        margin-top: $size + 0rem;
+    }
+    pt-#{$size} {
+        padding-top: $size + 0rem;
+    }
+    mb-#{$size} {
+        margin-bottom: $size + 0rem;
+    }
+    pb-#{$size} {
+        padding-bottom: $size + 0rem;
+    }
+}
+
+// Align
+
+.text-center {
+    text-align: center
+}
+
+// Flex 
+
+.flex {
+    display: flex;
+}
+
+// Flex Justify
+
+.flex.justify-center { 
+    justify-content: center 
+}
+
+.flex.justify-between{
+    justify-content: space-between;
+}
+
+.flex.justify-start{
+    justify-content: flex-start;
+}
+
+.flex.justify-around {
+    justify-content: space-around;
+}
+
+.flex.align-center { 
+    align-items: center 
+}
+
+// Flex Items 
+
+.self-center{
+    align-self: center;
+}
+
+.grow-1{
+    flex-grow: 1;
+}
+
+.flex.wrap {
+    flex-wrap: wrap;
+}
