@@ -13,10 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    $comics = config('comics');
+// A: Metodo diretto
 
-    // dd($comics);
+// Route::get('/', function () {
+//     $comics = config('comics');
 
-    return view('home', compact('comics'));
-});
+     // dd($comics);
+
+//     return view('home', compact('comics'));
+// })->name('home');
+
+// B: Metodo Controller
+
+Route::get('/', 'HomeController@index')->name('home');

@@ -9,7 +9,7 @@
     </div>
     <!-- Nav bar --->
     <div class="container">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="{{route('home')}}">
          <img src="{{ asset('img/logo.png') }}" alt="DC Comics Logo">
         </a>
         <nav class="navbar-nav">
