@@ -18,12 +18,21 @@ class ComicController extends Controller
         /**
          * Get specific comic by ID
          */
-        $comic = [];
-        foreach ($comics as $item) {
-            if ($id == $item['id']){
-                $comic = $item;
-            }
-        }
+
+        
+
+        /* Metodo if */
+        // $comic = [];
+        // foreach ($comics as $item) {
+        //     if ($id == $item['id']){
+        //         $comic = $item;
+        //     }
+        // }
+
+        /* Metodo firstWhere */
+        $comic = collect($comics)->firstWhere('id', $id); //! push primo elemento con chiave 'id' == $id
+
         // dd($comic);
+        return view('comics.show', compact('comic'));
      }
 }
