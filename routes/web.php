@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+/**
+ * HOME PAGE
+ */
+
 // A: Metodo diretto
 
 // Route::get('/', function () {
@@ -26,3 +30,9 @@ use Illuminate\Support\Facades\Route;
 // B: Metodo Controller
 
 Route::get('/', 'HomeController@index')->name('home');
+
+/**
+ * COMICS DETAIL *
+ */
+
+ Route::get('/comic/{id}', 'ComicController@show')->name('comic-detail');
