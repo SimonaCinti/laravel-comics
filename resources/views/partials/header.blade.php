@@ -1,12 +1,14 @@
 {{-- HEADER --}}
 
-<header class="main-header"> 
-    <div class="container">
-        <ul>
-            <li>DC power Visa</li>
-            <li>Additional dc sites</li>
-        </ul>
-    </div>
+<header class="main-header">
+    <div class="navtop">
+        <div class="container">
+            <ul class="flex justify-end">
+                <li>DC power&#x2120; Visa&#xae;</li>
+                <li>Additional dc sites</li>
+            </ul>
+        </div> 
+    </div> 
     <!-- Nav bar --->
     <div class="container">
         <a class="navbar-brand" href="{{route('home')}}">

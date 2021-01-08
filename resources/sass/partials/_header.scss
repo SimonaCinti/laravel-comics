@@ -1,0 +1,11 @@
+.navtop{
+    background-color: $mainColor;
+    padding: 0.3rem 0;
+    font-size: 0.7rem;
+    font-weight: bolder;
+    color: $secondaryColor;
+    text-transform: uppercase;
+    li {
+        flex-basis: 13%;
+    }
+}
