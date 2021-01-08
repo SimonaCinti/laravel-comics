@@ -12,17 +12,11 @@ class ComicController extends Controller
      * Detail page for comic item
      */
 
-     public function show($slug) {
+    public function show($slug) {
 
-         $comics = config('comics');
-         // decision
-
-        /**
-         * Get specific comic by ID
-         */
-
-        /* Metodo if */
+        $comics = config('comics');
         $comic = [];
+        // Decision
         foreach ($comics as $item) {
             //title to slag 
             $titleConverted = Str::slug($item['title'], '-');
@@ -38,7 +32,7 @@ class ComicController extends Controller
         */
 
         // $comic = collect($comics)->firstWhere('id', $id); //! push primo elemento con chiave id
-        
+
         /**
          * Error 404 
         */
@@ -52,5 +46,5 @@ class ComicController extends Controller
 
         // dd($comic);
         return view('comics.show', compact('comic'));
-     }
+    }
 }
