@@ -6272,8 +6272,25 @@ input[type=search]::-webkit-search-decoration {
   text-align: center;
 }
 
+.relative {
+  position: relative;
+}
+
 .main-color {
   color: #0282f9;
+}
+
+/*
+* Buttons
+*/
+.btn {
+  color: #eee;
+  background-color: #0282f9;
+  width: 170px;
+  text-align: center;
+  padding: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .flex {
@@ -6424,4 +6441,21 @@ header .navbar-nav .fa-search {
 }
 .comics .comic-list h3 {
   font-size: 0.9rem;
+}
+
+.main-submenu {
+  width: 100%;
+  background-color: #0282f9;
+}
+.main-submenu li {
+  display: flex;
+  flex-basis: calc(100% / 5 );
+  align-items: center;
+  text-transform: uppercase;
+  color: #eee;
+  font-size: 0.8rem;
+}
+.main-submenu li img {
+  height: 30%;
+  margin-right: 0.4rem;
 }

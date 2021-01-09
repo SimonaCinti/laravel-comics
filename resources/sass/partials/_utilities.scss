@@ -30,6 +30,11 @@
     text-align: center;
 }
 
+// Position
+
+.relative {
+    position: relative;
+}
 
 // Color
 
@@ -41,7 +46,15 @@
 * Buttons
 */
 
-
+.btn {
+    color: $secondaryColor;
+    background-color: $mainColor;
+    width: 170px;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
 
 // Flex 

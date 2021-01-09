@@ -22,6 +22,39 @@
                         </li>
                     @endforeach
                 </ul>
+                <div class="flex justify-center pb-1">
+                    <a href="/">
+                        <div class="btn load">
+                            <small>Load More</small>        
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="main-submenu">
+            <div class="container">
+                <ul class="flex justify-between">
+                    <li>
+                        <img src="../img/digital-comics.png" alt="digital">
+                        <p>Digital comics</p>
+                    </li>
+                    <li>
+                        <img src="../img/merchandise.png" alt="merchandise">
+                        <p>Dc merchandise</p>
+                    </li>
+                    <li>
+                        <img src="../img/subscriptions.png" alt="subscript">
+                        <p>subscriptions</p>
+                    </li>
+                    <li>
+                        <img src="../img/shop-locator.png" alt="shop">
+                        <p>comic shop locator</p>
+                    </li>
+                    <li>
+                        <img src="../img/power-visa.svg" alt="visa">
+                        <p>dc power visa</p>
+                    </li>
+                </ul>
             </div>
         </section>
     </main>

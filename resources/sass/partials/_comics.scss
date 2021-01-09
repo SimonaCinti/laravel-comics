@@ -11,6 +11,23 @@
         h3 {
             font-size: 0.9rem;
         }
-    }
+    }   
 }
 
+.main-submenu {
+    width: 100%;
+    background-color: $mainColor;
+    li { 
+        display: flex;
+        flex-basis: calc(100% / 5 );
+        align-items: center;
+        text-transform: uppercase;
+        color: $secondaryColor;
+        font-size: 0.8rem;
+        img {
+            height: 30%;
+            margin-right: 0.4rem;
+        }
+    }
+    
+} 
