@@ -1,0 +1,21 @@
+.main-footer{
+    background-image: url('../img/footer-bg.jpg');
+    height: 380px;
+    .container{
+        position: relative;
+        img {
+            position: absolute;
+            right: 0;
+            top: -100px;
+            clip-path:inset(18% 0 14.3%);
+        }
+        li {
+            color: $footerText;
+        }
+    }
+
+}
+.bottom-footer{
+    background-color: $footerColor;
+    height: 80px;
+}

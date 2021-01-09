@@ -63,6 +63,10 @@
     display: flex;
 }
 
+.flex.column{
+    flex-direction: column;
+}
+
 // Flex Justify
 
 .flex.justify-center { 

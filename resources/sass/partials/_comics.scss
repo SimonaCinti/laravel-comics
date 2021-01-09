@@ -15,11 +15,10 @@
 }
 
 .main-submenu {
-    width: 100%;
     background-color: $mainColor;
     li { 
         display: flex;
-        flex-basis: calc(100% / 5 );
+        width: calc(100% / 5);
         align-items: center;
         text-transform: uppercase;
         color: $secondaryColor;
@@ -30,4 +29,4 @@
         }
     }
     
-} 
+}

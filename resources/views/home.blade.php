@@ -31,9 +31,9 @@
                 </div>
             </div>
         </section>
-        <section class="main-submenu">
+        <section class="main-submenu mb-4">
             <div class="container">
-                <ul class="flex justify-between">
+                <ul class="flex justify-around">
                     <li>
                         <img src="../img/digital-comics.png" alt="digital">
                         <p>Digital comics</p>
