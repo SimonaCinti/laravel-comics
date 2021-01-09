@@ -1,12 +1,14 @@
 @extends('layouts.main')
 
 @section('content')
-    <main class="wrap-home mt-1">
+    <main class="wrap-home">
+        {{-- HERO --}}
         <section class="hero">
             <div class="container">
                 <img src="{{ asset('img/cover-home.jpg') }}" alt="cover-hero">
             </div>
         </section>
+        {{-- Comic Gallery --}}
         <section class="comics mt-2 mb-2">
             <div class="container">
                 <ul class="comic-list">

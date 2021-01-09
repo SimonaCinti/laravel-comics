@@ -1,11 +1,56 @@
-.navtop{
+
+header{
+
+    // TOP BAR
+     .navtop {
     background-color: $mainColor;
     padding: 0.3rem 0;
     font-size: 0.7rem;
     font-weight: bolder;
     color: $secondaryColor;
     text-transform: uppercase;
-    li {
-        flex-basis: 13%;
+        li {
+            flex-basis: 13%;
+            .copyright{
+                position: relative;
+                right: 2px;
+                bottom: 3px;
+                &:nth-child(2){
+                    bottom: 4px;
+                    font-size: 0.6rem;
+                }
+            }
+            .fas{
+                padding-left: 5px;
+                font-size: 0.8rem;
+            }
+        }
+    }    
+    // NAVIGATION BAR
+    .navbar-nav{
+        flex-basis: 85%;
+        ul {
+            justify-content: space-between;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: $mainText;
+        }
+        input{
+
+            border-bottom: 2px solid $mainColor;
+            width: 100px;
+            padding-bottom: 5px;
+            &::placeholder{
+                text-align: center;
+                font-weight: bold;
+                font-size: 1rem;
+                opacity: 1;
+            }
+        }
+        .fa-search{
+            position: relative;
+            right: 22px;
+        }
     }
+        
 }

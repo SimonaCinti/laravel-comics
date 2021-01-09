@@ -27,7 +27,14 @@
 // Align
 
 .text-center {
-    text-align: center
+    text-align: center;
+}
+
+
+// Color
+
+.main-color {
+    color: $mainColor;
 }
 
 // Flex 
@@ -39,7 +46,7 @@
 // Flex Justify
 
 .flex.justify-center { 
-    justify-content: center 
+    justify-content: center;
 }
 
 .flex.justify-between{
@@ -59,7 +66,7 @@
 }
 
 .flex.align-center { 
-    align-items: center 
+    align-items: center;
 }
 
 // Flex Items 
