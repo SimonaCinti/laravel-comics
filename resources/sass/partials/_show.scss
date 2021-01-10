@@ -1,3 +1,35 @@
+
+// SOCIAL BAR FIXED
+.social-bar {
+    position: fixed;
+    right: 0px;
+    bottom: 50%;
+    font-size: 1.5rem;
+    color: white;
+    z-index: 3;
+    i {
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        line-height: 50px;
+    }
+    .fa-facebook-f{
+        background-color: #3b5998;
+    }
+    .fa-twitter {
+        background-color: #1ea1f2;
+    }
+    .fa-pinterest{
+        background-color: #cb2128;
+    }
+    .fa-plus {
+        background-color: #ff6651;
+    }
+}
+// Detail comic top
+.detail-comic-top {
+    border-bottom: 1px solid #e6e6e6;
+}
 .description{
     flex-basis: 70%;
     h1 {
@@ -38,5 +70,53 @@
     }
     img {
         width: 100%;
+    }
+}
+
+// Detail comic bottom
+
+.detail-comic-bottom {
+    border-bottom: 1px solid #e6e6e6;
+    h4 {
+        color: $mainTitle; 
+        font-size: 1.4rem;
+        text-transform: capitalize;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #e6e6e6;
+    }
+    .detail-column{
+        flex-basis: 40%;
+    }
+    .detail-info{
+        border-bottom: 1px solid #e6e6e6;
+        padding: 10px 10px 10px 0;
+    } & p:first-of-type {        
+        color: $mainTitle
+    }& p:nth-of-type(2) {
+        color: $mainColor;
+        padding-left: 1rem;
+    }
+}
+
+// Detail comic nav
+
+.detail-comic-nav {
+    li {
+        padding: 20px;
+        border-left: 1px solid  #e6e6e6;
+        color: $footerText;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 0.7rem;
+        &:last-of-type {
+            border-right: 1px solid  #e6e6e6;
+        }
+    }
+    p {
+        display: inline-block;
+        margin-right: 1rem;
+    }
+    img {
+        float: right;
     }
 }
