@@ -6482,6 +6482,11 @@ header .navbar-nav .fa-search {
   margin-right: 0.4rem;
 }
 
+.detail-comic {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
 .main-footer {
   background-image: url("../img/footer-bg.jpg");
   height: 380px;

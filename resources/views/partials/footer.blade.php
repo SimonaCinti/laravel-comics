@@ -53,10 +53,10 @@
         </div> 
     </section>
     <section class="bottom-footer pt-1 pb-1">
-        <div class="container flex justify-between">
+        <div class="container flex justify-between align-center">
            <div class="btn empty sign-up">Sign-up now</div>
            <div class="social">
-               <ul class="social-list flex justify-between">
+               <ul class="social-list flex justify-between align-center">
                    <li>Follow us</li>
                    <li>
                         <i class="fab fa-facebook-f"></i>
