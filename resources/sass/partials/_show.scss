@@ -1,4 +1,42 @@
-.detail-comic {
-    margin-left: 4rem;
-    margin-right: 4rem;
+.description{
+    flex-basis: 70%;
+    h1 {
+        color: $mainTitle;
+        padding-bottom: 1rem;        
+    }
+    .detail {
+        background-color: #55ba59;
+        border-bottom: 1px solid #357739;
+        height: 50px;
+        color: white;
+        .price{
+            flex-basis: 75%;
+            border-right: 1px solid #357739;
+            padding: 0 15px;
+        }
+        .availability {
+            padding: 0 15px;
+            i{
+                margin-left: 15px;
+            }
+        }
+    }
+    .text {
+        line-height: 1.6;
+        color: $secondaryText;
+    }
+}
+
+.adv {
+    flex-basis: 25%;
+    p {
+        text-align: right;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 0.8rem;
+        padding-bottom: 0.5rem;
+    }
+    img {
+        width: 100%;
+    }
 }
