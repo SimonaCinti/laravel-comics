@@ -6170,6 +6170,14 @@ input[type=search]::-webkit-search-decoration {
   box-shadow: none;
 }
 
+.h50 {
+  height: 50vh;
+}
+
+.main-color {
+  color: #0282f9;
+}
+
 .container {
   max-width: 1170px;
   margin: 0 auto;
@@ -6297,6 +6305,12 @@ input[type=search]::-webkit-search-decoration {
   font-weight: bold;
 }
 
+.btn.empty {
+  background-color: transparent;
+  border: 2px solid #0282f9;
+  padding: 10px;
+}
+
 .flex {
   display: flex;
 }
@@ -6412,7 +6426,7 @@ header .navbar-nav .fa-search {
 .hero::after {
   content: "";
   width: 100%;
-  height: 20px;
+  height: 30px;
   position: absolute;
   bottom: 0px;
   background-color: #0282f9;
@@ -6423,6 +6437,7 @@ header .navbar-nav .fa-search {
   bottom: 10px;
   margin-left: 4rem;
   border: 1px solid white;
+  z-index: 2;
 }
 .hero h2 {
   position: absolute;
@@ -6430,9 +6445,9 @@ header .navbar-nav .fa-search {
   color: white;
   text-transform: uppercase;
   background-color: #0282f9;
-  padding: 10px;
-  bottom: 10px;
-  z-index: 2;
+  padding: 10px 50px 10px 20px;
+  bottom: 0;
+  z-index: 3;
 }
 
 .comics {
@@ -6470,6 +6485,7 @@ header .navbar-nav .fa-search {
 .main-footer {
   background-image: url("../img/footer-bg.jpg");
   height: 380px;
+  font-size: 0.8rem;
 }
 .main-footer .container {
   position: relative;
@@ -6481,11 +6497,36 @@ header .navbar-nav .fa-search {
   -webkit-clip-path: inset(18% 0 14.3%);
           clip-path: inset(18% 0 14.3%);
 }
+.main-footer .container h2 {
+  margin-bottom: 1rem;
+}
+.main-footer .container ul {
+  margin-right: 1rem;
+}
 .main-footer .container li {
   color: #959595;
+  padding-bottom: 0.4rem;
+  text-transform: capitalize;
+}
+.main-footer .credits {
+  color: #959595;
+}
+.main-footer .credits a {
+  color: #0282f9;
 }
 
 .bottom-footer {
   background-color: #303030;
   height: 80px;
+}
+.bottom-footer .social {
+  flex-basis: 30%;
+}
+.bottom-footer .social li {
+  text-transform: uppercase;
+  color: #0282f9;
+  font-size: 1.2rem;
+}
+.bottom-footer .social li i {
+  font-size: 1.8rem;
 }

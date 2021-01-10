@@ -1,6 +1,7 @@
 .main-footer{
     background-image: url('../img/footer-bg.jpg');
     height: 380px;
+    font-size: 0.8rem;
     .container{
         position: relative;
         img {
@@ -9,13 +10,38 @@
             top: -100px;
             clip-path:inset(18% 0 14.3%);
         }
+        h2 {
+             margin-bottom: 1rem;
+            }
+        ul {
+            margin-right: 1rem;
+        }                  
         li {
             color: $footerText;
+            padding-bottom: 0.4rem;
+            text-transform: capitalize;
+        }    
+    }
+    .credits {
+        color: $footerText;
+        a {
+            color: $mainColor;
         }
     }
-
 }
 .bottom-footer{
     background-color: $footerColor;
     height: 80px;
+    .social{
+        flex-basis: 30%;
+        li {
+            text-transform: uppercase;
+            color: $mainColor;
+            font-size: 1.2rem;
+            i {
+                font-size: 1.8rem;
+            }
+        }
+
+    }
 }

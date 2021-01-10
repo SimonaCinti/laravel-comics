@@ -1,7 +1,7 @@
 {{-- FOOTER --}}
 <footer>
     <section class="main-footer">
-        <div class="container flex pt-2">
+        <div class="container flex pt-2 mb-1">
             <img src="../img/logo-footer.png" alt="logo-footer">
             <div class="footer-nav">
                 <h2> Dc Comics</h2>
@@ -45,10 +45,37 @@
                     <li> DC Power Visa</li>
                 </ul>
             </div>
-        </div>  
+        </div> 
+        <div class="credits container">
+            <p>All Site Content TM and &#169; 2020 DC Entertainment, unless otherwise 
+                <a href="/">noted here</a>. All rights reserved. </p>    
+            <a href="/">Cookie Settings</a>
+        </div> 
     </section>
-    <section class="bottom-footer">
-        lorem
+    <section class="bottom-footer pt-1 pb-1">
+        <div class="container flex justify-between">
+           <div class="btn empty sign-up">Sign-up now</div>
+           <div class="social">
+               <ul class="social-list flex justify-between">
+                   <li>Follow us</li>
+                   <li>
+                        <i class="fab fa-facebook-f"></i>
+                   </li>
+                   <li>
+                        <i class="fab fa-twitter"></i>
+                   </li>
+                   <li>
+                        <i class="fab fa-youtube"></i>
+                   </li>
+                   <li>
+                        <i class="fab fa-pinterest"></i>
+                   </li>
+                   <li>
+                        <i class="fab fa-periscope"></i>
+                   </li>
+               </ul>        
+            </div>  
+        </div>
     </section>
 </footer>
 
